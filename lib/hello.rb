@@ -1,5 +1,5 @@
-# Default is "World"
-# Author: Christopher Williams (ChrisW@scccolorado.org)
-name = ARGV.first || "World"
+puts "What's your name"
+my_name = gets.strip
+
 puts "Hello, #{name}!"
 
